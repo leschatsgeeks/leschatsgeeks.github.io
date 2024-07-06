@@ -1,0 +1,158 @@
+html {
+	margin; 0;
+	padding: 0;
+	font-family: sans-serif;
+	text-align: center;
+	background-color: lightgray;
+	height: 100%;
+	scroll-padding-top: 7.5cm;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('assets/background.png');
+	background-size: 20em;
+	background-attachment: fixed;
+}
+
+body {
+	padding: 0;
+	margin: 0 auto;
+	width: 60%;
+	background-color: white;
+	box-shadow: 0 0 2em 0 black;
+}
+
+body > main :link, body > main :visited {
+	text-decoration: none;
+	color: #000080;
+}
+
+body :link:hover {
+	text-decoration: underline;
+}
+
+body > header {
+	position: sticky;
+	top: 0;
+	left: 20%;
+	right: 20%;
+	height: 7cm;
+	background-color: white;
+	text-align: center;
+}
+
+body > header .banner {
+	margin-top: 1cm;
+	width: 13cm;
+}
+
+body > header > nav {
+	background-color: #000080;
+}
+
+body > header > nav > ul {
+	padding: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+body > header > nav > ul > li {
+	padding: 1ex;
+	font-variant: small-caps;
+	display: inline-block;
+}
+
+body > header > nav :link, body > header > nav :visited {
+	text-decoration: none;
+	color: white;
+}
+
+body > main {
+	padding: 0 1cm;
+}
+
+body > main > section {
+  text-align: justify;
+}
+
+body > footer {
+	padding: 1ex;
+	background-color: #000080;
+	color: white;
+	font-size: xx-small;
+	text-align: center;
+}
+
+body > footer h2 {
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+address {
+	display: inline;
+}
+
+body > header > h1 {
+	margin: 0;
+}
+
+body > footer > ul {
+	display: flex;
+	padding: 0;
+	position: relative;
+	left: 35%;
+	width: 30%;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+body > footer > ul > li {
+	display: inline-block;
+}
+
+body > main h2 {
+	margin: 1em;
+	font-variant: small-caps;
+	color: #000080;
+}
+
+body > main > figure {
+	display: inline-block;
+	padding: 1ex;
+	border: thin #000080 solid;
+	border-radius: 3px;
+}
+
+body > main > figure > figcaption {
+	font-size: small;
+	font-variant: small-caps;
+}
+
+body > main > section > main > ul {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+body > main > section > main > ul > li {
+	display: inline;
+}
+
+body > main > section > main > ul > li > a > img {
+	height: 64px;
+}
+
+a.partenaire > img {
+	border-radius: 50%;
+	box-shadow: 0 0 1em 0 black;
+}
+
+a.partenaire > img:hover {
+	transform: scale(1.25);
+}
+
+a.social > img {
+	border-radius: 50%;
+}
+
+a.social > img:hover {
+	box-shadow: 0 0 1em 0 white;
+	transform: scale(1.25);
+}
