@@ -122,9 +122,11 @@ body > main > .illustrations {
 }
 
 body > main > .illustrations > * {
-	display: block;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	margin: 1em 0;
-	max-height: 170px;
+	height: 22ex;
 	padding: 1ex;
 	border: thin #000080 solid;
 	border-radius: 3px;
@@ -139,6 +141,10 @@ body > main > .illustrations > figure > figcaption  {
 figure img {
 	display: block;
 	margin: 0 auto;
+}
+
+figure figcaption {
+	margin: 0.5ex auto;
 }
 
 body > main > section > main > ul {
