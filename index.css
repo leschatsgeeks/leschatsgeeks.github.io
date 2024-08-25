@@ -15,7 +15,7 @@ html {
 body {
 	padding: 0;
 	margin: 0 auto;
-	width: 60%;
+	max-width: 134ex;
 	background-color: white;
 	box-shadow: 0 0 2em 0 black;
 }
