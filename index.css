@@ -147,6 +147,12 @@ figure figcaption {
 	margin: 0.5ex auto;
 }
 
+body > main > section > main > iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 body > main > section > main > ul {
 	display: flex;
 	justify-content: space-evenly;
