@@ -39,6 +39,14 @@ body > header {
 	text-align: center;
 }
 
+body > main > section.warning {
+	margin: 2em auto;
+	color: red;
+	font-weight: bold;
+	font-style: italic;
+	font-size: larger;
+}
+
 body > header .banner {
 	margin-top: 1cm;
 	width: 13cm;
